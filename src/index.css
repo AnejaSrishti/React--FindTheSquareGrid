@@ -1,0 +1,31 @@
+.divBox
+{
+  
+    background: white;
+    margin:1px;
+   
+}
+
+.body{
+background-color: gray;
+}
+
+.boxWrapper
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boxCenter
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    background: red;
+    height: 400px;
+    width: 400px;
+}
